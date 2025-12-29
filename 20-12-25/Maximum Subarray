@@ -1,0 +1,7 @@
+class Solution:
+    def maxSubArray(self, nums):
+        c=b=nums[0]
+        for n in nums[1:]:
+            c=max(n,c+n)
+            b=max(b,c)
+        return b
