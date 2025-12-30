@@ -1,0 +1,12 @@
+import java.util.*;
+class ExpenseTracker {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double rent=s.nextDouble();
+        double food=s.nextDouble();
+        double travel=s.nextDouble();
+        double misc=s.nextDouble();
+        double total=rent+food+travel+misc;
+        System.out.println(total);
+    }
+}
