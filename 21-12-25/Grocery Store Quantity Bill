@@ -1,0 +1,11 @@
+import java.util.*;
+class GroceryStore {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double rice=s.nextDouble();
+        double wheat=s.nextDouble();
+        double sugar=s.nextDouble();
+        double total=(rice*65)+(wheat*52)+(sugar*45);
+        System.out.println(total);
+    }
+}
