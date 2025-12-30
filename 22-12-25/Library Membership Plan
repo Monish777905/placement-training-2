@@ -1,0 +1,10 @@
+import java.util.*;
+class LibraryPlan {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int months=s.nextInt();
+        double fee=months*120;
+        if(months>6)fee*=0.9;
+        System.out.println(fee);
+    }
+}
