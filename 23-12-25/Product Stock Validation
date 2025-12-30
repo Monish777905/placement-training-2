@@ -1,0 +1,8 @@
+public class StockCheck {
+    public static void main(String[] args) {
+        int stock = 12;
+        int order = 10;
+        if(order <= stock) System.out.println("Order Placed");
+        else System.out.println("Insufficient Stock");
+    }
+}
