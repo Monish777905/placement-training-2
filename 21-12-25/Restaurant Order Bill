@@ -1,0 +1,14 @@
+import java.util.*;
+class RestaurantBill {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double total=0;
+        double[] prices={120.5,80.0,95.0,150.0};
+        int[] qty=new int[4];
+        for(int i=0;i<4;i++){
+            qty[i]=s.nextInt();
+            total+=prices[i]*qty[i];
+        }
+        System.out.println(total);
+    }
+}
