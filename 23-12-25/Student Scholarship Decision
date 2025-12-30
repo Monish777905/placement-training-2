@@ -1,0 +1,8 @@
+public class ScholarshipCheck {
+    public static void main(String[] args) {
+        double cgpa = 8.7;
+        int income = 180000;
+        if(cgpa >= 8.5 && income < 200000) System.out.println("Scholarship Approved");
+        else System.out.println("Scholarship Rejected");
+    }
+}
