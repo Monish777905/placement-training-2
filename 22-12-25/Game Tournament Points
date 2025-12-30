@@ -1,0 +1,9 @@
+import java.util.*;
+class TournamentPoints {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int win=s.nextInt(),draw=s.nextInt(),loss=s.nextInt();
+        int points=win*3+draw;
+        System.out.println(points);
+    }
+}
