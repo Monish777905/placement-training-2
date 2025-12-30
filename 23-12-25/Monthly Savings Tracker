@@ -1,0 +1,9 @@
+import java.util.*;
+class SavingsTracker {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double income=s.nextDouble();
+        double expense=s.nextDouble();
+        System.out.println(income-expense);
+    }
+}
