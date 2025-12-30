@@ -1,0 +1,9 @@
+import java.util.*;
+class SeatingCapacity {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int rooms=s.nextInt();
+        int perRoom=s.nextInt();
+        System.out.println(rooms*perRoom);
+    }
+}
