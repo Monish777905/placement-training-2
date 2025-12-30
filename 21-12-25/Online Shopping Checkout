@@ -1,0 +1,11 @@
+import java.util.*;
+class ShoppingCheckout {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double subtotal=s.nextDouble();
+        double tax=subtotal*0.05;
+        double delivery=40;
+        double total=subtotal+tax+delivery;
+        System.out.println(total);
+    }
+}
