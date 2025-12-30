@@ -1,0 +1,6 @@
+class ShoppingDiscount {
+    public static void main(String[] args) {
+        double price=1200,discount=10;
+        System.out.println(price-(price*discount/100));
+    }
+}
