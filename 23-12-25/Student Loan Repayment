@@ -1,0 +1,11 @@
+import java.util.*;
+class LoanRepay {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double loan=s.nextDouble();
+        double r=s.nextDouble();
+        int years=s.nextInt();
+        double interest=loan*r*years/100;
+        System.out.println(loan+interest);
+    }
+}
