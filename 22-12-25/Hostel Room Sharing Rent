@@ -1,0 +1,9 @@
+import java.util.*;
+class RoomRent {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double rent=s.nextDouble();
+        int persons=s.nextInt();
+        System.out.println(rent/persons);
+    }
+}
