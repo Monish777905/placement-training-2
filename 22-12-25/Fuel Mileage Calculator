@@ -1,0 +1,9 @@
+import java.util.*;
+class MileageCalc {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double distance=s.nextDouble();
+        double fuel=s.nextDouble();
+        System.out.println(distance/fuel);
+    }
+}
