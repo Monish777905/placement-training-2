@@ -1,0 +1,10 @@
+import java.util.*;
+class PostpaidBill {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int calls=s.nextInt();
+        double bill=299;
+        if(calls>200)bill+=(calls-200)*0.5;
+        System.out.println(bill);
+    }
+}
