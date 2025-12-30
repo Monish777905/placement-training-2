@@ -1,0 +1,6 @@
+class ATMWithdrawal {
+    public static void main(String[] args) {
+        int balance=5000,withdraw=1500;
+        System.out.println(balance-withdraw);
+    }
+}
