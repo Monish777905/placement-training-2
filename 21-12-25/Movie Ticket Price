@@ -1,0 +1,6 @@
+class MovieTicket {
+    public static void main(String[] args) {
+        int seats=3,price=150;
+        System.out.println(seats*price);
+    }
+}
