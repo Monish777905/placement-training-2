@@ -1,0 +1,11 @@
+import java.util.*;
+class HotelBooking {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int days=s.nextInt();
+        double rate=s.nextDouble();
+        double total=days*rate;
+        if(days>5)total*=0.9;
+        System.out.println(total);
+    }
+}
