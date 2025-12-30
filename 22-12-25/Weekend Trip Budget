@@ -1,0 +1,10 @@
+import java.util.*;
+class TripBudget {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double travel=s.nextDouble();
+        double stay=s.nextDouble();
+        double food=s.nextDouble();
+        System.out.println(travel+stay+food);
+    }
+}
