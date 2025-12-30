@@ -1,0 +1,6 @@
+class MobileRecharge {
+    public static void main(String[] args) {
+        int balance=200,recharge=129;
+        System.out.println(balance-recharge);
+    }
+}
