@@ -1,0 +1,10 @@
+import java.util.*;
+class LoanCheck {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double income=s.nextDouble();
+        int cibil=s.nextInt();
+        if(income>=30000 && cibil>=700)System.out.println("Eligible");
+        else System.out.println("Not Eligible");
+    }
+}
