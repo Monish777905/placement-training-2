@@ -1,0 +1,10 @@
+import java.util.*;
+class TripFuelCost {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double distance=s.nextDouble();
+        double mileage=s.nextDouble();
+        double price=s.nextDouble();
+        System.out.println((distance/mileage)*price);
+    }
+}
