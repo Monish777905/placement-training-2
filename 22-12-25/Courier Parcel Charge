@@ -1,0 +1,9 @@
+import java.util.*;
+class CourierCharge {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double weight=s.nextDouble();
+        double cost=weight<=1?50:50+(weight-1)*30;
+        System.out.println(cost);
+    }
+}
