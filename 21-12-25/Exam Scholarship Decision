@@ -1,0 +1,10 @@
+import java.util.*;
+class Scholarship {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double avg=s.nextDouble();
+        int activities=s.nextInt();
+        if(avg>=85 && activities>=2)System.out.println("Scholarship Granted");
+        else System.out.println("Not Granted");
+    }
+}
