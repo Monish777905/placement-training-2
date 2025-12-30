@@ -1,0 +1,10 @@
+import java.util.*;
+class CabFare {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int km=s.nextInt();
+        double base=50;
+        double fare=base+(km*12.5);
+        System.out.println(fare);
+    }
+}
