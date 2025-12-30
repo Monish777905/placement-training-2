@@ -1,0 +1,9 @@
+import java.util.*;
+class FoodDelivery {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double amount=s.nextDouble();
+        double delivery=amount>=500?0:40;
+        System.out.println(amount+delivery);
+    }
+}
