@@ -1,0 +1,9 @@
+import java.util.*;
+class AttendanceFine {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int days=s.nextInt();
+        double fine=days>3?(days-3)*20:0;
+        System.out.println(fine);
+    }
+}
