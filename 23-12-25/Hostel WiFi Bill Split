@@ -1,0 +1,9 @@
+import java.util.*;
+class WifiSplit {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double bill=s.nextDouble();
+        int users=s.nextInt();
+        System.out.println(bill/users);
+    }
+}
