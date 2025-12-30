@@ -1,0 +1,10 @@
+import java.util.*;
+class EMIOffer {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double price=s.nextDouble();
+        int months=s.nextInt();
+        double emi=price/months;
+        System.out.println(emi);
+    }
+}
