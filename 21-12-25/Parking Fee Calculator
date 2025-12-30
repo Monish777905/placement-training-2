@@ -1,0 +1,9 @@
+import java.util.*;
+class ParkingFee {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int hours=s.nextInt();
+        double fee=hours<=2?50:50+(hours-2)*20;
+        System.out.println(fee);
+    }
+}
