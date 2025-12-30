@@ -1,0 +1,9 @@
+import java.util.*;
+class WifiLimit {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double limit=s.nextDouble();
+        double used=s.nextDouble();
+        System.out.println(limit-used);
+    }
+}
