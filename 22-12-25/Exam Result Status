@@ -1,0 +1,9 @@
+import java.util.*;
+class ResultStatus {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int m1=s.nextInt(),m2=s.nextInt(),m3=s.nextInt();
+        double avg=(m1+m2+m3)/3.0;
+        System.out.println(avg>=50?"Pass":"Fail");
+    }
+}
