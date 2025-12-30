@@ -1,0 +1,10 @@
+import java.util.*;
+class AttendanceStatus {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int attended=s.nextInt();
+        int total=s.nextInt();
+        double percent=attended*100.0/total;
+        System.out.println(percent>=75?"Allowed":"Not Allowed");
+    }
+}
