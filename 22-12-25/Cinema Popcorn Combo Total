@@ -1,0 +1,9 @@
+import java.util.*;
+class PopcornCombo {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int combo=s.nextInt();
+        double price=180;
+        System.out.println(combo*price);
+    }
+}
