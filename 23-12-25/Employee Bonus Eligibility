@@ -1,0 +1,11 @@
+public class EmployeeBonus {
+    public static void main(String[] args) {
+        int salary = 35000;
+        int years = 4;
+        if(years >= 3 && salary < 40000) {
+            System.out.println("Eligible for Bonus");
+        } else {
+            System.out.println("Not Eligible");
+        }
+    }
+}
