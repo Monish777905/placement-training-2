@@ -1,0 +1,9 @@
+import java.util.*;
+class CashbackOffer {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double amount=s.nextDouble();
+        double cashback=amount>=1000?amount*0.05:0;
+        System.out.println(amount-cashback);
+    }
+}
