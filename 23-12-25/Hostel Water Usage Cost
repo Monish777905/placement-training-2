@@ -1,0 +1,9 @@
+import java.util.*;
+class WaterUsageCost {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int units=s.nextInt();
+        double cost=units*3.5;
+        System.out.println(cost);
+    }
+}
