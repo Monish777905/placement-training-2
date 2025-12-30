@@ -1,0 +1,7 @@
+public class ShoppingDiscount {
+    public static void main(String[] args) {
+        double amount = 2500;
+        if(amount >= 2000) amount = amount - amount * 0.15;
+        System.out.println("Payable: " + amount);
+    }
+}
