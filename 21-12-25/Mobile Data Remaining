@@ -1,0 +1,10 @@
+import java.util.*;
+class DataRemaining {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        double plan=s.nextDouble();
+        double used=s.nextDouble();
+        double left=plan-used;
+        System.out.println(left);
+    }
+}
