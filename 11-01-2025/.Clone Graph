@@ -1,0 +1,12 @@
+def cloneGraph(node):
+    if not node:
+        return None
+    m = {}
+    def dfs(n):
+        if n in m:
+            return m[n]
+        c = Node(n.val)
+        m[n] = c
+        c.neighbors = [dfs(x) for x in n.neighbors]
+        return c
+    return dfs(node)
