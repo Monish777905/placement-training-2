@@ -1,0 +1,4 @@
+def findMedianSortedArrays(a, b):
+    c = sorted(a + b)
+    n = len(c)
+    return (c[n//2] + c[(n-1)//2]) / 2
