@@ -1,0 +1,11 @@
+def solveNQueens(n):
+    res = []
+    def dfs(r, c, d1, d2, b):
+        if r == n:
+            res.append(b[:])
+            return
+        for i in range(n):
+            if i not in c and r-i not in d1 and r+i not in d2:
+                dfs(r+1, c|{i}, d1|{r-i}, d2|{r+i}, b+[("."*i)+"Q"+("."*(n-i-1))])
+    dfs(0,set(),set(),set(),[])
+    return res
