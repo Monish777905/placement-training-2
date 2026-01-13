@@ -1,0 +1,14 @@
+def canFinish(n, p):
+    g = [[] for _ in range(n)]
+    for a,b in p:
+        g[b].append(a)
+    v = [0]*n
+    def dfs(i):
+        if v[i]==1: return False
+        if v[i]==2: return True
+        v[i]=1
+        for j in g[i]:
+            if not dfs(j): return False
+        v[i]=2
+        return True
+    return all(dfs(i) for i in range(n))
