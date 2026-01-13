@@ -1,0 +1,7 @@
+def rob(nums):
+    def f(a):
+        x = y = 0
+        for n in a:
+            x, y = y, max(y, x + n)
+        return y
+    return max(nums[0], f(nums[1:]), f(nums[:-1]))
