@@ -1,0 +1,9 @@
+def dailyTemperatures(t):
+    res = [0] * len(t)
+    st = []
+    for i in range(len(t)):
+        while st and t[i] > t[st[-1]]:
+            j = st.pop()
+            res[j] = i - j
+        st.append(i)
+    return res
