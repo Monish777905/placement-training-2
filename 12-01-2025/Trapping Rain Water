@@ -1,0 +1,13 @@
+def trap(h):
+    l, r = 0, len(h) - 1
+    lm = rm = res = 0
+    while l < r:
+        if h[l] < h[r]:
+            lm = max(lm, h[l])
+            res += lm - h[l]
+            l += 1
+        else:
+            rm = max(rm, h[r])
+            res += rm - h[r]
+            r -= 1
+    return res
