@@ -1,0 +1,13 @@
+def spiralOrder(m):
+    res = []
+    while m:
+        res += m.pop(0)
+        if m and m[0]:
+            for r in m:
+                res.append(r.pop())
+        if m:
+            res += m.pop()[::-1]
+        if m and m[0]:
+            for r in m[::-1]:
+                res.append(r.pop(0))
+    return res
