@@ -1,0 +1,10 @@
+def largestRectangleArea(h):
+    st, res = [], 0
+    h.append(0)
+    for i in range(len(h)):
+        while st and h[st[-1]] > h[i]:
+            height = h[st.pop()]
+            width = i if not st else i - st[-1] - 1
+            res = max(res, height * width)
+        st.append(i)
+    return res
